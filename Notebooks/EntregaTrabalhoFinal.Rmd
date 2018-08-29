@@ -598,7 +598,7 @@ str(clusters)
 
 Mapa de Calor 
 ========================
----
+
 ```{r message=FALSE, warning=FALSE, fig.height = 8, echo=FALSE}
 ### Monta configuração inicial do quadrante
 cfg <- list( x.min = long.min, x.max = long.max, x.step = 0.006,
@@ -677,4 +677,29 @@ Definir processamento Avaliação
 
 ---
 
-![Modelo Predicao](ml_model.png)
+<img src="ml_model.png" alt="Modelo Predicao", width="100%" >
+
+---
+
+Conclusão
+========================
+
+Este projeto foi fundamental para colocar em prática diversos conceitos aprendidos em aula e em pesquisas realizadas durante o curso e durante o trabalho.
+
+Dessa forma realizamos limpeza de dados e tratamento de dados para facilitar o início do tratalho, utilizando estratégia de programação funcional, reaproveitando códgio e utilizando APIs como Dplyr para facilitar na manipulação e criação de variáveis, utilizamos lubridate para tratamento de varíaveis de tempo como data e hora das corridas para descobrir o dia da semana.
+
+Utilizamos conceitos estatísticos para realizar análise de dados e entendimento das corridas e do comportamento das corridas do de manhattan em NYC.
+
+Utilizamos gráficos com ggplot, plot e plotly para melhor visualizar os dados das corridas para melhor entender os horários de corrídas.
+
+E entendimento de algorítimos de de predição e de normalização de dados pararealizar análises preditivas.
+
+
+__Obrigado__
+
+
+
+
+
+
+
